@@ -1,0 +1,9 @@
+[submodule "cellar"]
+	path = cellar
+	url = https://github.com/DrewMcArthur/kroeg-cellar
+[submodule "server"]
+	path = server
+	url = https://github.com/DrewMcArthur/kroeg-server
+[submodule "jsonld-rs"]
+	path = server
+	url = https://github.com/DrewMcArthur/kroeg-jsonld-rs
