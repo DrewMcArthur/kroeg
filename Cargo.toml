@@ -1,2 +1,3 @@
 [workspace]
-members = ["tap", "cellar", "server", "jsonld-rs"]
+members = ["tap/tap", "cellar", "server", "jsonld-rs", "tap/activitypub"]
+exclude = ["tap"]
