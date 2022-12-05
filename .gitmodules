@@ -10,9 +10,6 @@
 [submodule "tap"]
 	path = tap
 	url = git@github.com:DrewMcArthur/kroeg-tap.git
-[submodule "kroeg"]
-	path = kroeg
-	url = https://puck.moe/git/kroeg/kroeg
 [submodule "frontend"]
 	path = frontend
 	url = https://puck.moe/git/kroeg/frontend
@@ -22,3 +19,6 @@
 [submodule "oauth"]
 	path = oauth
 	url = https://puck.moe/git/kroeg/oauth
+[submodule "kroeg-cli"]
+	path = kroeg-cli
+	url = git@github.com:DrewMcArthur/kroeg-cli.git
