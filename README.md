@@ -2,12 +2,7 @@
 
 > kroeg noun \- pub \- bar
 
-This is a collection of repositories forked from work by [Puck Meerburg](https://puck.moe).
-
-- [server](https://puck.moe/git/kroeg/server)
-- [cellar](https://puck.moe/git/kroeg/cellar)
-- [tap](https://puck.moe/git/kroeg/tap/)
-- [jsonld-rs](https://github.com/kroeg/jsonld-rs)
+This is a [collection of repositories](https://puck.moe/git/kroeg/) forked from work by [Puck Meerburg](https://puck.moe).
 
 ## how to run
 
@@ -15,10 +10,8 @@ This is a collection of repositories forked from work by [Puck Meerburg](https:/
 2. check that the project builds with `cargo build` 
 3. install postgresql
    - create a new db with `psql postgres -c 'CREATE DATABASE kroeg;'`
-   - initialize the schema with `psql postgres -f cellar/schema/db.sql`
-4. create root users with 
-   - `cargo run --bin kroeg-call create https://example.com/~exampleUser exampleUser "Example User"`
-5. get an authorization key by running 
-   - `cargo run --bin kroeg-call auth https://example.com/~exampleUser`
-   - use this authorization key in the header of any requests
-6. use `cargo run --bin kroeg` to actually run the server
+   - initialize the schema with `psql kroeg -f cellar/schema/db.sql`
+4. `cd kroeg` to enter the folder of the main cli tool
+5. use `cargo run --bin kroeg serve` to run the server
+6. use `cargo run --bin kroeg actor name create` to create a new actor named `name`
+7. run `cargo doc` to build helpful docs
