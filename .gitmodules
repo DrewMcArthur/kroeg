@@ -5,5 +5,5 @@
 	path = server
 	url = https://github.com/DrewMcArthur/kroeg-server
 [submodule "jsonld-rs"]
-	path = server
+	path = jsonld-rs
 	url = https://github.com/DrewMcArthur/kroeg-jsonld-rs
