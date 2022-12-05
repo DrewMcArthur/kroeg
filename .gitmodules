@@ -7,3 +7,6 @@
 [submodule "jsonld-rs"]
 	path = jsonld-rs
 	url = https://github.com/DrewMcArthur/kroeg-jsonld-rs
+[submodule "tap"]
+	path = tap
+	url = git@github.com:DrewMcArthur/kroeg-tap.git
