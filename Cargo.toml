@@ -1,2 +1,2 @@
 [workspace]
-members = ["tap", "cellar", "server", "jsonld-rs", "activitypub"]
+members = ["tap/tap", "cellar", "server", "jsonld-rs", "tap/activitypub"]
