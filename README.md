@@ -1,6 +1,6 @@
 # Kroeg
 
-> kroeg noun - pub - bar
+> kroeg noun \- pub \- bar
 
 This is a collection of repositories forked from work by [Puck Meerburg](https://puck.moe).
 
@@ -12,8 +12,7 @@ This is a collection of repositories forked from work by [Puck Meerburg](https:/
 ## how to run
 
 1. [install rust](https://www.rust-lang.org/tools/install)
-2. build the project with `cargo build` 
-   - (optionally include `--release` for an optimized build without debug info)
+2. check that the project builds with `cargo build` 
 3. install postgresql
    - create a new db with `psql postgres -c 'CREATE DATABASE kroeg;'`
    - initialize the schema with `psql postgres -f cellar/schema/db.sql`
